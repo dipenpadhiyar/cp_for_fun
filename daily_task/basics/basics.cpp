@@ -1,25 +1,48 @@
-#include <bits/stdc++.h>  // This will work only for g++ compiler.
-#include<time.h>
+#include <iostream>
+using namespace std;
 
+#define ll long long
+int main() {
+  ll WMW = 0; // watermelon weight
+
+  cin >> WMW;
+  /*
+  condition is that water melon divide in a such way that distributed between A
+  and B as even number of 
+    wight: example : 8 kg  Ans : true
+            A : 2 , B : 6 
+            A : 4 , B : 4 
+            A : 6 , B : 2
+
+    */
+
+  if(WMW!=2 && WMW%2 == 0){
+    cout << "true" <<endl;
+  }
+  else{
+    cout << "false" << endl;
+    
+  }
+
+  return 0;
+  
+}
+
+
+
+#include <bits/stdc++.h>  // This will work only for g++ compiler.
 #define fast ios::sync_with_stdio(false);cin.tie(0)
 #define ll long long 
 using namespace std;
 
+
+
 int main() {
     fast;
-    clock_t time;
     ll t=1;cin>>t;
-    
-    register int a =10,b = 0,c = 0;
-    time = clock();
-    for(int i =0 ;i<10;i++){
-        b = b + i;
-        c = a + b;
+    while(t--){
+        cout<<"Hello";
     }
-    time = clock() - time;
-    double time_taken = ((double)time)/CLOCKS_PER_SEC;
     
-    cout<<"fun() took "<< time_taken <<"seconds to execute \n", );
-
     return 0;
 }

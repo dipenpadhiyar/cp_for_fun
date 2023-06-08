@@ -1,0 +1,1 @@
+{"name":"Local: basics","url":"h:\\C.P\\daily_task\\basics\\basics.cpp","tests":[{"id":1686215061275,"input":"10","output":"true"},{"id":1686215082940,"input":"2","output":"false"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\C.P\\daily_task\\basics\\basics.cpp","group":"local","local":true}
