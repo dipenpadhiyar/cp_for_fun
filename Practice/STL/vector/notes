@@ -1,0 +1,10 @@
+Arrays are constant in size:-
+    char arr[5] = "Dipen"; or   string arr[5] = "jay";
+             ^                             ^
+             |                             |
+             |                             |
+          fix 5 size                   fix 5 siz
+
+solution is vector whic is dynamical in nature.
+
+vector<int ,int > data;

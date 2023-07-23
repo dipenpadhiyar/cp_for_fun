@@ -9,6 +9,18 @@ using namespace std;
     3.for
 */ 
 
+// //1.while loopw
+// int main(){
+//   //N number sum
+//   int n, sum =0;
+//   cin>> n;
+//   while(i<=n){
+
+//     i ++;
+//   }
+// }
+/*
+The for_each_loop
 #define MAX 100
 int main(){
   fast;
@@ -19,7 +31,6 @@ int main(){
 
   int rev[size];
   //reverse the element
- 
   int j =1;
   for(int i : num){
     rev[size-j] = i;
@@ -30,5 +41,7 @@ int main(){
   }
  reverse(num,num+size);
  for(int m : num){cout<<endl<<m<<endl;}
+
   return 0;
 }
+*/

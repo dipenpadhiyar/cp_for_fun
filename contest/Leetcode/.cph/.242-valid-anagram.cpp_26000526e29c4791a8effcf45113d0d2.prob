@@ -1,0 +1,1 @@
+{"name":"Local: 242-valid-anagram","url":"h:\\C.P\\contest\\Leetcode\\242-valid-anagram.cpp","tests":[{"id":1689600288224,"input":"anagram\nnagaram","output":"1"},{"id":1689613672795,"input":"ab\nba","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"h:\\C.P\\contest\\Leetcode\\242-valid-anagram.cpp","group":"local","local":true}

@@ -9,20 +9,20 @@ using namespace std;
 #define tab "\t"
 int main(){
     fast;
-    string s = "abcdefg";
+    string s = "abcd";
     int s_size = s.size();
-    int k = 2;
+    int k = 4;
     string temp;
-    // algo reverser first K() caracter
-    reverse(s.begin(),s.begin()+k);
-    for(i=k;i<s_size;i+(2k)){
+    //algo reverser first K() caracter
+    int i =0;
+    while(s[i]!='\0'){
+        reverse(s.begin()+i,s.begin()+k+i);
+        cout<<tab<<i;
+        i = i+2*k;
+        
     }
-
     //update position of k with two
-    k = ;
-    if(){
-    }
-    cout<<s;
+    cout<<endl<<s;
     return 0;
 }
 

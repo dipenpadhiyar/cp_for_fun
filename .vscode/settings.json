@@ -3,6 +3,18 @@
         "xstring": "cpp",
         "ostream": "cpp",
         "vector": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "bitset": "cpp",
+        "system_error": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "list": "cpp"
     }
 }
