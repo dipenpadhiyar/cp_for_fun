@@ -15,6 +15,12 @@
         "iterator": "cpp",
         "xhash": "cpp",
         "xtree": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "set": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     }
 }
